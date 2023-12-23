@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main>
+    <img src="./sun.svg" alt="sun img" class="sun">
+    <div class="box">
+        <form  id="form">
+            <input type="search" id="input" class="input_weather">
+        </form>
+        <p id="name"></p>
+        <p id="deg"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+    </div>
+   </main>
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+   <script src="./index.js"></script>
+</body>
+</html>
